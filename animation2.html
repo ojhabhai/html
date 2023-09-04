@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        body{
+            background-color: black;
+            display: flex;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: azure;
+            margin-top: 300px;
+            margin: auto;
+            transition: all;
+        
+            transition-property: 5s;
+            
+            display: inline-block;
+
+
+        }
+        .box:hover{
+            background-color: brown;
+
+            height: 500px;
+            width: 500px;
+            border-radius: 300px;
+            cursor: pointer;
+            border: 25px dashed yellow;
+            transform: rotate(360deg);
+            
+
+
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    
+    <div class="box"></div>
+    
+    <div class="box"></div>
+    
+    <div class="box"></div>
+    
+    
+</body>
+</html>
