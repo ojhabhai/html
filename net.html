@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign In</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    /* background-color:black; */
+    color:white;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    height: 98vh;
+    width: 99%;
+
+}
+
+.container {
+    max-width: 500px;
+    height: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.sign-in-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    color: black;
+}
+
+.remember-me input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #e50914;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.background-image{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: auto;
+
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="background-image">
+        <img src="https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/85eb5b91-25ed-4965-ace9-ba8e4a0ead8d/IN-en-20230828-popsignuptwoweeks-perspective_alpha_website_large.jpg" alt="image">
+    </div>
+    <div class="container">
+
+        <div class="logo">
+            <img src="netflix-logo.png" alt="Netflix Logo">
+        </div>
+        <div class="sign-in-form">
+            <h2>Sign In</h2>
+            <form>
+                <input type="email" placeholder="Email or Phone number" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign In</button>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <a href="#">Forgot password?</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
